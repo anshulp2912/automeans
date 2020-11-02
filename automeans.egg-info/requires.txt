@@ -1,0 +1,5 @@
+numpy
+scikit-learn
+pandas
+kneed>=0.7.0
+matplotlib>=3.3.2

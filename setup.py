@@ -12,11 +12,10 @@ setuptools.setup(
     description="A Python package that helps automate the number of cluster for k-means",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=['numpy','scikit-learn','pandas','kneed>=0.7.0', 'matplotlib==3.3.2'],
+    install_requires=['numpy','scikit-learn','pandas','kneed>=0.7.0', 'matplotlib>=3.3.2'],
     license = "MIT",
     url="https://github.com/anshulp2912/automeans",
     packages=setuptools.find_packages(),
-    include_package_data = True,
     classifiers=[
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",

@@ -1,0 +1,9 @@
+README.md
+setup.py
+automeans/__init__.py
+automeans/cluster.py
+automeans.egg-info/PKG-INFO
+automeans.egg-info/SOURCES.txt
+automeans.egg-info/dependency_links.txt
+automeans.egg-info/requires.txt
+automeans.egg-info/top_level.txt
