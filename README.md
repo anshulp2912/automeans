@@ -47,6 +47,7 @@ model, cluster = AM.fit(X)
 ## Parameters
 For initializing the model
 max_clusters : The number of maximum seeds to choose
+
 metrics : {"standard", "kneed", "silhouette"}, default="standard"
         Metric to choose the best number of cluster
 All other parameters are same as used in [sklearn Kmeans algorithm](https://scikit-learn.org/dev/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans)
