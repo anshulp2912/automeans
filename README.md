@@ -12,8 +12,58 @@ Solution : This library helps automate the selection process for the optimal num
 - Getting the optimally fitted kmeans model
 - Getting the optimal number of cluster
 
+## Installation
+```Python
+pip install automeans
+```
 ## Usage
+Importing the model
+```python
+from automeans.cluster import ameans
+```
+There are 3 metrics to choose from ['standard','kneed','silhouette']
 
+- standard
+```python
+# Initialize the model
+AM = ameans(max_clusters = 5, metrics = 'standard')
+# Fit on data 'X'
+model, cluster = AM.fit(X)
+```
+- kneed
+```python
+# Initialize the model
+AM = ameans(max_clusters = 5, metrics = 'kneed')
+# Fit on data 'X'
+model, cluster = AM.fit(X)
+```
+- silhouette
+```python
+# Initialize the model
+AM = ameans(max_clusters = 5, metrics = 'silhouette')
+# Fit on data 'X'
+model, cluster = AM.fit(X)
+```
+## Parameters
+For initializing the model
+max_clusters : The number of maximum seeds to choose
+metrics : {"standard", "kneed", "silhouette"}, default="standard"
+        Metric to choose the best number of cluster
+All other parameters are same as used in [sklearn Kmeans algorithm](https://scikit-learn.org/dev/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans)
+
+## Example
+```python
+import numpy as np
+X = np.array([[1, 2], [2, 5], [3, 6], [8, 7], [8, 8], [7, 3]])
+
+from automeans.cluster import ameans
+# Initialize the model
+AM = ameans(max_clusters = 5, metrics = 'silhouette')
+# Fit on data 'X'
+model, cluster = AM.fit(X)
+# Predict the cluster on data 'X'
+predictions = model.predict(X)
+```
 ## Acknowledgement
 
 ## Licencse
