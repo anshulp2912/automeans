@@ -1,3 +1,9 @@
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI pyversions](https://img.shields.io/badge/python-3.6%7C3.7%7C3.8-brightgreen)](https://img.shields.io/badge/python-3.6%7C3.7%7C3.8-brightgreen)
+[![PyPi Format](https://img.shields.io/badge/format-wheel-brightgreen)](https://img.shields.io/badge/format-wheel-brightgreen)
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
+
 # automeans
 Python Library for automating the scikit-learn K-Means Clustering Algorithm by optimising the selection of number of clusters.
 
