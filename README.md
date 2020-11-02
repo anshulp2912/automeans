@@ -65,6 +65,10 @@ model, cluster = AM.fit(X)
 predictions = model.predict(X)
 ```
 ## Acknowledgement
+- (Standard Method)[https://www.linkedin.com/pulse/finding-optimal-number-clusters-k-means-through-elbow-asanka-perera/]
+- (Kneed Method)[https://github.com/arvkevi/kneed]
+- (Silhouette Method)[https://stackoverflow.com/questions/54936518/how-do-i-automate-the-number-of-clusters]
+- (Scikit-Learn)[https://scikit-learn.org/dev/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans]
 
 ## Licencse
 
