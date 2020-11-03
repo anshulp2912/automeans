@@ -11,6 +11,7 @@ Python Library for automating the scikit-learn K-Means Clustering Algorithm by o
 Kmeans algorithm is an iterative algorithm that tries to partition the dataset into K pre-defined distinct non-overlapping subgroups (clusters) where each data point belongs to only one group. It tries to make the intra-cluster data points as similar as possible while also keeping the clusters as different (far) as possible. It assigns data points to a cluster such that the sum of the squared distance between the data points and the cluster’s centroid (arithmetic mean of all the data points that belong to that cluster) is at the minimum. The less variation we have within clusters, the more homogeneous (similar) the data points are within the same cluster.
 
 Problem : As the name suggest, Kmeans algorithm depends upon 'K' which often times is not known by the user at the time of fitting the data.
+
 Solution : This library helps automate the selection process for the optimal number of cluster on a given data, along with an optimal fitted model.
 
 ## Features
